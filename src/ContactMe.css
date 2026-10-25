@@ -1,0 +1,99 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+  line-height: 1.6;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+  text-align: center;
+}
+
+#contact label {
+  margin: 10px 0 5px;
+  color: #00d9ff;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  background-color: #111;
+  color: #fff;
+  resize: none;
+}
+
+#contact button {
+  padding: 12px;
+  background-color: #00d9ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#contact button:hover {
+  background-color: #009ac1;
+}
+
+#socials {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #0b0b0b;
+}
+
+#socials a {
+  color: #00d9ff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+#socials a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  #skills table {
+    width: 90%;
+  }
+
+  #contacts form {
+    width: 90%;
+  }
+
+  #projects img {
+    width: 90%;
+    height: auto;
+  }
+}
